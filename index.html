@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>JS</title>
+    <link rel="stylesheet" href="/style.css" />
+    <!-- <script src="/LesExercise/exo1.js" defer></script> -->
+    <!-- <script src="/LesExercise/exo2.js" defer></script> -->
+    <!-- <script src="/LesExercise/exo3.js" defer></script> -->
+    <!-- <script src="/LesExercise/exo4.js" defer></script> -->
+    <script src="/LesExercise/exo5.js" defer></script>
+    <script src="/LesExercise/exo6.js" defer></script>
+    <script src="/LesExercise/exo7.js" defer></script>
+    <script src="/LesExercise/exo8.js" defer></script>
+  </head>
+  <body class="pt-4">
+    <div class="grid grid-cols-4">
+      <div class="border-4">
+        <h1 class="font-bold border-b-4 border-black w-full">
+          Voici la liste de students :
+        </h1>
+        <ul id="studentList" class="list-disc pl-6"></ul>
+      </div>
+      <div class="grid justify-center border-4 ml-6">
+        <h1 class="mx-auto font-bold">
+          Clicker sur la carre pour changer la couleur
+        </h1>
+        <main class="mx-auto"></main>
+      </div>
+      <div class="border-4 grid justify-center ml-6">
+        <h1 class="font-bold text-lg pl-6">
+          Mettez vos nombres et appuier sur la button egale
+        </h1>
+        <input
+          id="nombre1"
+          class="border-4 border-black"
+          type="text"
+          placeholder="Entre votre nombre 1"
+        />
+        <p class="grid justify-center pt-4 text-2xl">+</p>
+        <input
+          id="nombre2"
+          class="border-4 border-black"
+          type="text"
+          placeholder="Entre votre nombre 2"
+        />
+        <p class="pt-4 grid justify-center">
+          <button
+            id="equal"
+            class="text-2xl bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 border border-blue-700 rounded"
+            type="button"
+          >
+            =
+          </button>
+        </p>
+
+        <span id="total" class="text-9xl grid justify-center" type="button"
+          >0</span
+        >
+      </div>
+    </div>
+    <div id="greetings" class="Exo1"></div>
+  </body>
+</html>

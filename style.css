@@ -1,0 +1,10 @@
+main {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  margin-bottom: 30px;
+}
+.dynamicStyle {
+  background-color: red;
+  margin: 0 auto 0 auto;
+}
