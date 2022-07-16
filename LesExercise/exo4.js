@@ -1,1 +1,0 @@
-document.querySelector("#greetings").innerHTML = 'Hello World!!';
