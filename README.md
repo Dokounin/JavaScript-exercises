@@ -43,7 +43,7 @@ Nous allons créer un tableau avec des noms:
 Essayez, ça sera plus compliqué cette fois-ci.
 ➡ un tableau est un type spécial de variable qui contient plusieurs variables
 ➡ on peut utiliser une boucle `for` classique, comme en C, pour parcourir un tableau. C’est plus simple à rédiger
-➡ on peut utiliser la fonction `forEach` propre à chaque tableau pour le parcourir. C’est un peu plus complexe à rédiger, <strong>mais c’est la bonne manière<strong>
+➡ on peut utiliser la fonction `forEach` propre à chaque tableau pour le parcourir. C’est un peu plus complexe à rédiger, <strong>mais c’est la bonne manière</strong>
 
 # 6. Sixième exercice: ajouter à une balise
 
