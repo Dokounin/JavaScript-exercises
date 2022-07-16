@@ -1,4 +1,4 @@
-const students = [
+students = [
   "Alexandre.C",
   "Alexandre.B",
   "Benoît",
