@@ -76,8 +76,16 @@ Indices en vrac:
 on récupère la valeur d’un champ `input` avec l’attribut `value` (exemple: `document.querySelector("#myInput").value`)
 
 # 9. Neuvième exercise : Cumul, moyenne
+
 On a un champ d’input. À chaque fois que l’utilisateur y entre une valeur (validée en appuyant sur un bouton par exemple), vous affichez le cumul de toutes les valeurs entrées depuis le début ainsi que la moyenne des valeurs entrées.
 Indices en vrac:
 
-Créez un tableau pour stocker les valeurs (`var inputVals = [];`)
-Pour ajouter une valeur à un tableau : `inputVals.push(parseInt(document.querySelector("#myInput").value));` par exemple
+ - Créez un tableau pour stocker les valeurs (`var inputVals = [];`)
+ - Pour ajouter une valeur à un tableau : `inputVals.push(parseInt(document.querySelector("#myInput").value));` par exemple
+
+# 10. Dixième exercise : Tri alphabétique
+
+Affichez le nombre total d’élèves et les prénoms des élèves par ordre alphabétique décroissant (de Z à A) donc à partir du tableau qui avait été donné dans le cours
+Indices en vrac:
+
+ - pfff, j’ai la flemme de vous trouver un indice
